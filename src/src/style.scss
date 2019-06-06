@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.app-container {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+  background: #224E6A;
+  color: #52AEA0;
+
+  .main-container {
+    display: grid;
+  }
+}
