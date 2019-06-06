@@ -16,6 +16,11 @@ body {
   background: #224E6A;
   color: #52AEA0; }
   .app-container .main-container {
-    display: grid; }
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
