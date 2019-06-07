@@ -1,16 +1,14 @@
-/*
-    App.js veranderen naar App.jsx (ook in index.js!)
-
-*/
+// App.js veranderen naar App.jsx (ook in index.js!)
 
 import React, { Component } from 'react';
 import logo from './logo.svg';
 
+//styling importeren
 import './assets/style.css'
 
-//sections importeren
-import TopSection from './components/top.jsx';
-import BottomSection from './components/bottom.jsx';
+//components importeren
+import TopSection from './components/top/index.jsx';
+import BottomSection from './components/bottom/index.jsx';
 
 class App extends Component {
   render() {

@@ -1,0 +1,32 @@
+.top-container {
+  display: grid;
+  font-family: Oxygen, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+.top-container .title {
+  font-size: 22px;
+}
+
+.weather-container {
+  margin-top: 1.2em;
+}
+.weather-container .inner-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.weather-container .inner-container .current-weather {
+  font-size: 30px;
+}
+.weather-container .inner-container .image {
+  width: 2.5em;
+  height: 2.5em;
+}
+.weather-container .inner-container .image img {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

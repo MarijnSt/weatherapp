@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './style.css';
+import Weather from './weather.jsx';
 
 export default class TopSection extends React.Component {
   constructor(props) {
@@ -9,6 +11,9 @@ export default class TopSection extends React.Component {
 
   //lege render return geeft een container terug
   render() {
-    return <div>TOP SECTION</div>
+    return <div className="top-container">
+      <div className="title">Weather App</div>
+      <Weather />
+    </div>
   }
 }
