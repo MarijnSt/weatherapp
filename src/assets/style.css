@@ -1,11 +1,13 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 html,
 body {
   width: 100vw;
-  height: 100vh; }
+  height: 100vh;
+}
 
 .app-container {
   width: 100vw;
@@ -14,13 +16,15 @@ body {
   justify-items: center;
   align-items: center;
   background: #224E6A;
-  color: #52AEA0; }
-  .app-container .main-container {
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    justify-items: center;
-    align-items: center; }
+  color: #729DB8;
+}
+.app-container .main-container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */

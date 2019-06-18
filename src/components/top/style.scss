@@ -11,15 +11,19 @@
 
 .weather-container {
   margin-top: 1.2em;
+  &>div {
+    margin-top: 1em;
+  }
   .header {
     //grid styling
   }
 
   .inner-container {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
 
     .current-weather {
       font-size: 30px;
@@ -38,5 +42,25 @@
 
   .footer {
     //grid styling
+  }
+}
+
+.btn {
+  padding: 10px;
+  margin: 20px 0;
+  background: none;
+  border: 1px solid #729DB8;
+  color: #729DB8;
+  font-family: Oxygen, sans-serif;
+  font-size: 1rem;
+  transition: all 500ms;
+
+  &:hover {
+    background: #729DB8;
+    color: #fff;
+  }
+
+  &:focus {
+    outline: none;
   }
 }

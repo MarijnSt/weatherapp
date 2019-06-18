@@ -1,0 +1,11 @@
+.bottom {
+    height: 100%;
+    width: 100%;
+
+    .bottom-container {
+        height: 100%;
+        width: 100%;
+        background: center no-repeat url('../../resources/images/bottom-background.jpg');
+        background-size: cover;
+    }
+}

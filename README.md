@@ -5,6 +5,8 @@
 
   * (58m) Styling toegevoegd, extra components (met eigen scss), weather component gemaakt. Nog geen API
 
+  * (1h14) Styling top and bottom, nog geen API
+
 ## Tips
   * terminal: 'open .' opent de huidige folder in finder
   *  
